@@ -1,0 +1,52 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local secrets
+.env
+.env.*
+
+# Trained models and large experiment artifacts
+models/
+artifacts/
+checkpoints/
+*.zip
+*.pth
+*.pt
+*.ckpt
+
+# Generated datasets and large local exports
+data/
+outputs/
+*.parquet
+*.feather
+*.pkl
+*.joblib
+prices.csv
+train_prices.csv
+test_prices.csv
+train_returns.csv
+test_returns.csv
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Git cannot ignore files by size threshold directly.
+# Keep large generated CSV exports inside ignored folders such as data/ or outputs/.
