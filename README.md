@@ -8,8 +8,6 @@ This repository contains the final code, results, and documentation for my under
 ## Project Summary
 
 - **Author:** Sujal Suman
-- **Institution:** Manipal University Jaipur
-- **Program:** B.Tech. Data Science
 - **Dataset window:** January 2010 to December 2024
 - **Trading days:** 3,884
 - **Train split:** January 2010 to December 2021 (3,108 days)
