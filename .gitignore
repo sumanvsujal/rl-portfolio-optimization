@@ -48,5 +48,4 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Git cannot ignore files by size threshold directly.
-# Keep large generated CSV exports inside ignored folders such as data/ or outputs/.
+
