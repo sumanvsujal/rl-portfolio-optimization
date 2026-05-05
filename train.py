@@ -128,7 +128,7 @@ def train_agents(
         )
         model = build_agent(algorithm=algorithm, env=env, device=device, seed=seed)
         # We keep the long training horizon because financial environments are
-        # noisy; shorter runs tend to produce unstable conclusions.
+        # noisy; shorter runs tend to produce unstable conclusion.
         model.learn(total_timesteps=timesteps, progress_bar=True)
         output_path = models_dir / f"{algorithm.lower()}_portfolio_model"
         model.save(str(output_path))
